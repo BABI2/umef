@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Site_De_Swiss_UMEF.Models.Article>?
+@if (Model == null)
+{
+    <h2 style="margin-top:20px;"> 
+            votre recherche n'as pas de suite  <a asp-controller="Home" asp-action="Index">Retour á l'accueil</a> 
+    </h2>
+}
+else
+{
+    <h2 style="margin-top:20px;">
+        @Model.Count().ToString() resultat(s) trouvé
+    </h2>
+    <table class="table">
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td style="color:#204669;">
+                        @Html.Raw(item.title)
+                    </td>
+                    <td>
+                        @Html.Raw(item.content)
+                    </td>
+                    <td>
+                        <a href="#"> lire plus</a>
+                    </td>
+               </tr>
+            }
+        </tbody>
+    </table> 
+}
+
+

@@ -1,0 +1,12 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using Site_De_Swiss_UMEF.Models;
+global using Microsoft.AspNetCore.Mvc;
+global using Site_De_Swiss_UMEF.Data;
+global using System.Diagnostics;
+global using System.ComponentModel.DataAnnotations;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using Microsoft.AspNetCore.ResponseCompression;
+global using System.IO.Compression;
+global using Microsoft.AspNetCore.Identity.UI.Services;
+global using Microsoft.AspNetCore.Identity;
+global using Site_De_Swiss_UMEF.Service;

@@ -1,0 +1,69 @@
+﻿@model Site_De_Swiss_UMEF.Models.Article
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Article</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_article" />
+            <div class="form-group">
+                <label asp-for="title" class="control-label"></label>
+                <input asp-for="title" class="form-control" />
+                <span asp-validation-for="title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="content" class="control-label"></label>
+                <input asp-for="content" class="form-control" />
+                <span asp-validation-for="content" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="image_article" class="control-label"></label>
+                <input asp-for="image_article" class="form-control" />
+                <span asp-validation-for="image_article" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="icons" class="control-label"></label>
+                <input asp-for="icons" class="form-control" />
+                <span asp-validation-for="icons" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="id_categorie" class="control-label"></label>
+                <input asp-for="id_categorie" class="form-control" />
+                <span asp-validation-for="id_categorie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="create_at" class="control-label"></label>
+                <input asp-for="create_at" class="form-control" />
+                <span asp-validation-for="create_at" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="update_at" class="control-label"></label>
+                <input asp-for="update_at" class="form-control" />
+                <span asp-validation-for="update_at" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+<div>
+    <a asp-action="SendNewsletter">Send by newsletter</a>
+</div>
+

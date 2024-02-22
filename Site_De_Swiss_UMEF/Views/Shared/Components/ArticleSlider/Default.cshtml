@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Article>;
+@foreach (var boite in Model)
+{
+    @foreach (var images in ViewBag.liste) //Parcourir dans la liste des images
+    {
+        if (images.Id == boite.id_article)
+        {
+            <div class="carousel-item">
+                <div class="containerImg">
+                    <img src="@images.Chaines" class="img-fluid d-block slideImg" alt="..." />
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="article">
+                        <h5>@boite.title</h5>
+                        <p>
+                            @Html.Raw(boite.content)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+
+    }
+}

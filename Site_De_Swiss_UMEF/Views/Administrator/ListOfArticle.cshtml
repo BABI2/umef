@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Article>
+@{
+    Layout = "_LayoutAdministrator";
+    ViewData["Title"] = "Administrator";
+}
+
+
+<br />
+<h1>Articles</h1>
+<h3 class="text-center text-uppercase">list of article</h3>
+
+<div class="form-group">
+    <a asp-controller="Administrator" asp-action="Create" class="btn btn-primary rounded-0">
+        <i class="fa fa-plus-circle"></i> Add New
+    </a>
+
+</div>
+<table class="table table-striped" style="width: 1020px; margin-left: 10px; margin-top: 10px;">
+    <thead class="table-heading">
+        <tr>
+
+            <th>
+                Title
+            </th>
+            <th>
+                Content
+            </th>
+
+            <th>Image</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+
+                    <a asp-action="Edit" asp-route-id="@item.id_article">@Html.DisplayFor(modelItem => item.title)</a>
+
+                </td>
+                <td>
+                    @Html.Raw(item.content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.image_article)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+@*@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}*@

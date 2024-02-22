@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Categorie>
+@{
+    Layout = "_LayoutAdministrator";
+    ViewData["Title"] = "Administrator";
+}
+
+
+<br />
+<h1>CATEGORIES</h1>
+<div class="form-group">
+    <a asp-controller="Administrator" asp-action="CreateCategory" class="btn btn-primary rounded-0" style="margin-left: 20px;>
+        <i class="fa fa-plus-circle"></i> Add New
+    </a>
+</div>
+<table class="table table-striped" style="width: 1020px; margin-left: 10px; margin-top: 10px;" ">
+    <thead class="table-heading">
+        <tr>
+
+            <th>
+                Nom 
+            </th>
+            <th>
+                Date de creation
+            </th>
+
+            <th>Date mise a jour</th>
+        </tr>
+    </thead>
+
+
+    @foreach (var item in Model) {
+    <tr>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.display_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.create_at)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.update_at)
+        </td>
+
+    </tr>
+    }
+
+</table>
+@*@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}*@

@@ -1,0 +1,309 @@
+﻿@model IEnumerable<Site_De_Swiss_UMEF.Models.Article>
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+@*Debut section carousel*@
+<div id="carouseIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+        @*<div class="carousel-item active">
+            <div class="containerImg">
+                <img src="~/Images/222.jpg"  class="img-fluid d-block slideImg" alt="...">
+            </div>
+              <div class="carousel-caption d-none d-md-block">
+                <div class="article">
+                    <h5>Visite du Directeur Général de l’ANSI</h5>
+                    <p>
+                        Nous avons reçu aujourd’hui sur notre campus Monsieur Ibrahim Guimba
+                        Saidou, Directeur Général de l’Agence Nationale pour la société de
+                        l’information (ANSI)
+                    </p>
+                   
+               </div>
+            </div>
+        </div>*@
+        <div class="carousel-item active">
+            <div class="containerImg">
+                <img src="~/Images/IG_ECOLE.jpg" class="img-fluid d-block slideImg" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                @* <div class="article">
+                <h5>Visite du Directeur Général de l’ANSI</h5>
+                <p>
+                Nous avons reçu aujourd’hui sur notre campus Monsieur Ibrahim Guimba
+                Saidou, Directeur Général de l’Agence Nationale pour la société de
+                l’information (ANSI)
+                </p>
+
+                </div>*@
+            </div>
+        </div>
+        @*<div class="carousel-item">
+            <div class="containerImg">
+                <img src="~/Images/333.jpg" class="img-fluid d-block slideImg" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                 <div class="article">
+                <h5>Visite du Directeur Général de l’ANSI</h5>
+                <p>
+                Nous avons reçu aujourd’hui sur notre campus Monsieur Ibrahim Guimba
+                Saidou, Directeur Général de l’Agence Nationale pour la société de
+                l’information (ANSI)
+                </p>
+
+                </div>
+            </div>
+        </div>*@
+        <!-- Affichage des articles avec images sous forme de slide -->
+        @await Component.InvokeAsync("ArticleSlider")
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+@*Fin section carousel*@
+
+
+
+
+
+
+<br />
+
+<div class="container reveal fade-left">
+    
+    
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="true">Qui sommes-nous?</button>
+            <button class="nav-link" id="nav-mission-tab" data-bs-toggle="tab" data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission" aria-selected="false">Notre mission et Nos Valeurs</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Développez votre potentiel</button>
+        </div>
+ 
+
+    @*section qui sont nous avec mot du dicteur*@
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+            <div class=" shadow-lg p-3 mb-5 bg-white rounded container">
+                <div class="card-body">
+                    <div class="row justify-content-between text-justify">
+                        <div class="col-md-6">
+
+                            <h3 class="aboutUsTitle caption-title"> @Html.Raw(Model.Where(a => a.id_categorie == 1).Where(a => a.title == "Qui sommes-nous?").First().title)</h3>
+                            <p class="aboutUsParagraph">  @Html.Raw(Model.Where(a => a.id_categorie == 1).Where(a => a.title == "Qui sommes-nous?").First().content)</p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="prestationDG mx-auto">
+                                
+                                <img class="card-img-top imgDG" src="~/Images/DG.jpg" alt="DG Swiss Umef ">
+                               
+                                <div>
+                                    <h4 class="nameDG">A.I Tahirou Korombeyzé</h4>
+                                    <p class="card-text">
+                                        Directeur Géneral de SWISS UMEF Niger
+                                    </p>
+                                </div>
+							</div>
+                            @await Component.InvokeAsync("Article",new{title="Mot du Directeur"})
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @*Fin section qui sont nous avec mot du dicteur*@
+        </div>
+        <div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
+            <div class="row missionbdr">
+                <div class="col-md-5 mission">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="missionIcon" src="~/Images/iconGoal.png" alt="goal icon ">
+                        </div>
+                        <div class="col-md-9 ">
+                            <p class="missionIcon text-justify">
+                                @await Component.InvokeAsync("Article",new{title="Notre mission"})
+                            </p>
+                           
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="missionIcon" src="~/Images/iconEye.png" alt="goal icon ">
+                        </div>
+                        <div class="col-md-9">
+                            @await Component.InvokeAsync("Article",new{title="Nos valeurs"})
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="image4" src="~/Images/Image4.JPG" alt="image">
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-8">
+                            <img class=" image5" src="~/Images/Image5.JPG" alt="image">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+
+            <h4 class="sectionTitle">Développez votre potentiel de <br /> leadership dans un cadre <br /> performant</h4>
+            <div class="row justify-content-between text-center">
+                <div class="col-md-4">
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                        <img class="image4" src="~/Images/Image2.JPG" alt="image" style="width:350px;">
+                        <h4>Spécialisations en Droit public</h4>
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                        <img class="image4" src="~/Images/Image4.JPG" alt="image" style="width:350px;">
+                        <h4>Diplomatie et relations internationales</h4>
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="shadow-sm p-3 mb-5 bg-white rounded">
+                        <img class="image4" src="~/Images/Image5.JPG" alt="image" style="width:350px;">
+                        <h4>Leadership & Management</h4>
+                        <p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="image4" src="~/Images/Image8.JPG" alt="image" style="width:100%;">
+            </div>
+
+        </div>
+    </div>
+
+</div>
+    
+
+    @*section Accreditations*@
+<div class="container-fluid reveal">
+    <br />
+    <div>
+        <h4 class="sectionTitle">Accréditations</h4>
+        <p class="centerText">
+            Issu d’un contexte national dans lequel la qualité est un attribut
+            transversal de toutes les activités économiques et sociales,
+            le groupe SWISS UMEF accompagne ses filiales de la réputation
+            de nombreuses accréditations ayant droit de cité dans les milieux
+            académiques. On peut citer :
+        </p>
+        <br />
+        <div class="row justify-content-between text-center">
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail acriditationImage2" src="~/Images/EduQua.jpg" alt="image">
+            </div>
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail  acriditationImage" src="~/Images/ACBSP.jpg" alt="image">
+            </div>
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail acriditationImage " src="~/Images/SAS_SIS_cmyk_145.jpg" alt="image">
+            </div>
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail acriditationImage1" src="~/Images/iacbe-logo.png" alt="image">
+            </div>
+        </div>
+    </div>
+    <br />
+
+@**temoignage*@
+
+<!-- Temoignage -->
+    <h1 style="text-align:center">Temoignages</h1>
+    <div class="slide-container swiper">
+        <div class="slide-content ">
+            <div class="card-wrapper swiper-wrapper justify-content-between ">
+                <p class="aboutUsParagraph">
+                    @await Component.InvokeAsync("Temoignage")
+               </p> 
+            </div>
+        </div>
+
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+ <!-- End Temoignage -->
+
+
+
+    <div class="reveal fade-right">
+        <h4 class="sectionTitle">Nos partenaires</h4>
+        <h6 class="text text-dark text-center">Réseau UMEF et partenariats académiques internationaux</h6>
+        <p class="text-center">
+            Swiss Umef University of Niger évolue dans un grand réseau international
+            composé de sa maison mère de Genève, de douze autres campus en Afrique,
+            en Asie et en Europe, ainsi que de partenaires constitués par de grandes
+            universités, instituts de formation et centres de recherche de par le monde.
+            C’est un volet de la stratégie du groupe et de ses filiales pour permettre
+            aux étudiants de profiter d’une offre intégrée de prestations de formation
+            et de recherche axées vers la mutualisation des ressources humaines et
+            des programmes à l’échelle d’environnements géographiques et socio-culturels
+            différents.
+        </p>
+
+        @*Debut section Partenaire*@
+
+        <div class="row justify-content-between text-center">
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail border-0 acriditationImage" src="~/Images/SwissUmef.png" alt="image">
+            </div>
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail border-0  acriditationImage" src="~/Images/Umef Burkina Faso.jpg" alt="image">
+            </div>
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail border-0 acriditationImage " src="~/Images/Umef Cote d'Ivoire.jpg" alt="image">
+            </div>
+            <div class="col-2 my-auto">
+                <img class="img-thumbnail border-0 acriditationImage" src="~/Images/Umef Geneve.jpg" alt="image">
+            </div>
+           
+        </div>
+
+        <div class="row justify-content-between text-center">
+        <h4 class="sectionTitle">Nos centres de compétences</h4>
+            <div class="col mx-auto">
+                <img class="img-fluid w-25 " src="~/Images/bg.png" alt="image">
+            </div>
+    </div>
+
+    </div>
+
+
+</div>
+

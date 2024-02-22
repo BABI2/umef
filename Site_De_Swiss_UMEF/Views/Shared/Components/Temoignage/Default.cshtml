@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Article>;
+@foreach (var temoignage in Model)
+{
+        <div class="card1 swiper-slide">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="@Html.Raw(temoignage.image_article)" alt="" class="card-img">
+            </div>
+        </div>
+
+        <div class="card-content">
+            <h2 class="name">@Html.Raw(temoignage.title)</h2>
+            <h6>
+                <small>
+                    @Html.Raw(temoignage.description) <br />
+                </small>
+            </h6>
+            <p class="description">
+                @Html.Raw(temoignage.content)
+            </p>
+
+        </div>
+    </div>
+}
+

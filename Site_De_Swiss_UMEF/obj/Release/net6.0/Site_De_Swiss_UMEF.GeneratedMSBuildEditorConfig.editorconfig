@@ -1,0 +1,275 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Site_De_Swiss_UMEF
+build_property.RootNamespace = Site_De_Swiss_UMEF
+build_property.ProjectDir = C:\Users\ElHebibMOUNKEÏLABABI\Source\Repos\umeftest\Site_De_Swiss_UMEF\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ElHebibMOUNKEÏLABABI\Source\Repos\umeftest\Site_De_Swiss_UMEF
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/Lockout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/CreateCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxDcmVhdGVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/ListOfArticle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxMaXN0T2ZBcnRpY2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/ListOfCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxMaXN0T2ZDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/SendNewsletter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxTZW5kTmV3c2xldHRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Administrator/SmtpConfiguration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5pc3RyYXRvclxTbXRwQ29uZmlndXJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Articles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Articles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Articles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Articles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Menu/footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxmb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Menu/menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxtZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Menu/menuAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxtZW51QWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Menu/plusinfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudVxwbHVzaW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Admission.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWRtaXNzaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Bachelor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQmFjaGVsb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQ29udGFjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Ecole_Doctorale.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRWNvbGVfRG9jdG9yYWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Ecole_Ingenieur.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRWNvbGVfSW5nZW5pZXVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Entreprenariat_UMEF.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRW50cmVwcmVuYXJpYXRfVU1FRi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Etudiant_Formation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRXR1ZGlhbnRfRm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Fonctionnaires.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRm9uY3Rpb25uYWlyZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Formations_Continues.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRm9ybWF0aW9uc19Db250aW51ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Formation_Bachelor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRm9ybWF0aW9uX0JhY2hlbG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Formation_Master.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcRm9ybWF0aW9uX01hc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Master.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcbWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Nouveau_Campus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcTm91dmVhdV9DYW1wdXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Recherche.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUmVjaGVyY2hlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Renforcement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUmVuZm9yY2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Pages/Temoignage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVGVtb2lnbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/Components/ArticleSlider/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXJ0aWNsZVNsaWRlclxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/Components/Article/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQXJ0aWNsZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/Components/Temoignage/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVGVtb2lnbmFnZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/_LayoutAdministrator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbmlzdHJhdG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/_LoginPartialCustom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWxDdXN0b20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/SmtpSettings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU210cFNldHRpbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/SmtpSettings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU210cFNldHRpbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/SmtpSettings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU210cFNldHRpbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/SmtpSettings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU210cFNldHRpbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/SmtpSettings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU210cFNldHRpbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Subscribers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Subscribers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Subscribers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Subscribers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/Subscribers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ElHebibMOUNKEÏLABABI/Source/Repos/umeftest/Site_De_Swiss_UMEF/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

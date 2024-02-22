@@ -1,0 +1,104 @@
+﻿
+<div class="text-center" id="copyright">
+    <div class="row col-12 p-3">
+
+        <div class="col-sm-3 col-md-3 ">
+            <span><i class="bi bi-alarm fa-2x"></i></span>
+            <h4>Jours & Horaires de travail</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item ">Jours: Du lundi au Samedi</li>
+                <li class="nav-item ">Matin: De 8h à 12 h 30 mn</li>
+                <li class="nav-item ">Aprés-midi: De 14h 30 mn à 19 h 00 mn</li>
+            </ul>
+        </div>
+
+        <div class="col-sm-3 col-md-3  ">
+            <span><i class="bi bi-telephone-inbound fa-2x"></i></span>
+            <h4> Contactez-nous</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item ">Tél: +227 20 33 30 30</li>
+                <li class="nav-item ">  +227 84 84 33 33</li>
+                <li class="nav-item ">  +227 92 92 33 33</li>
+                <li class="nav-item ">  niamey@umefuni-afrique.swiss</li>
+                <li class="nav-item ">  BP: 11623 Niamey-Niger.</li>
+            </ul>
+            <a href="www.umefuni-afrique"> En savoir plus</a>
+        </div>
+
+        <div class="col-sm-3 col-md-3  ">
+            <span><i class="bi bi-geo-alt fa-2x"></i></span>
+            <h4>Adresses</h4>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                    <strong>Adresse:</strong> quartier Couronne-nord,<br>
+                    à 50 m du rond point Mairie-Garage
+                </li>
+            </ul>
+            <br>
+            
+        </div>
+
+        <div class="col-sm-3 col-md-3">
+            <div class="row d-flex justify-content-center align-items-top rows">
+
+                
+
+
+                    
+
+
+                    <div class="text-center align-items-top">
+
+                            <span class="d-block mt-3">Notre newsletter</span>
+
+                            <div class="mx-5">
+
+
+                                <div class="input-group mb-3 mt-3">
+                                    <input type="email" class="form-control" id="subscriber" placeholder="Enter email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                    <button class="btn btn-success border-rad ms-2" onclick="subscriber()" type="button" id="button-addon2">Subscribe</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+               
+
+
+
+
+           
+        </div>
+        
+    </div>
+
+    <div class=" text-center py-3 border-top ">
+        <p>&copy; Copyright 2023 Swiss Umef University of Niger, Created By
+            <a href="https://www.gabera.software/"> Gabera Software Solutions</a>
+        </p>
+       
+    </div>
+</div>
+
+<script type="text/javascript">
+    function subscriber(){
+        var lemail = $('#subscriber').val();
+        $.ajax({
+            url: '@Url.Action("Subscription","Home")',
+            type:'GET',
+            data: { email : lemail},
+            success: function (data){
+                alert(data);
+            },
+            error: function(xhr,status,error){
+                console.log(error);
+            }
+
+        });
+
+    }
+
+</script>

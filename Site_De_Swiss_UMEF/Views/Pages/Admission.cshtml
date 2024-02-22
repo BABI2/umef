@@ -1,0 +1,653 @@
+﻿@{
+    ViewData["Title"] = "Admission";
+}
+
+
+
+<div class="container">
+    <form>
+        <div class="card card-default">
+            <div class="card-header">
+                <h2 class="text-danger text-center">Inscription</h2>
+            </div>
+            <div class="card-body">
+
+                <!--Informations personnelles-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Informations Personnelles:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="civilite">Civilité:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">M</option>
+                                    <option>Mme</option>
+                                    <option>Mlle</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="nom">Nom:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="nom">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="prenom">Prénom(s):</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="prenom">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="sexe">Sexe:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">M</option>
+                                    <option>F</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="situation">Situation de famille:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-hearts"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option value="Marié" selected="selected">Marié</option>
+                                    <option value="Célibataire">Célibataire</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="naissance">Date de naissance:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                                </div>
+                                <input type="date" class="form-control" id="naissance">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="nationalite">Nationalité:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="bi bi-globe"></i></span>
+                            </div>
+                            <input type="text" class="form-control" id="nationalite">
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Adresse permanente-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Adresse permanente:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="telephone">Téléphone:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-telephone-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="telephone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mail">E-mail:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-envelope-at-fill"></i></span>
+                                </div>
+                                <input type="email" class="form-control" id="mail">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="rue">Rue/N:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-house-door-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="rue">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="localité">NPA/Localité et Pays:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-house-door-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="localité">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Année de scolarité-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Année scolaire:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="bachelor">Bachelor:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Première année</option>
+                                    <option>Deuxième année</option>
+                                    <option>Troisième année</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="Master">Master:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Première année</option>
+                                    <option>Deuxième année</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Ecole d'affaires-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Ecole d'affaires:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="bachelor">Bachelor:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-award-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Bachelor en Management d'Entreprise</option>
+                                    <option>Bachelor en Finance d'Entreprise</option>
+                                    <option>Bachelor en Commerce International</option>
+                                    <option>Bachelor en Entreprenariat et Innovation</option>
+                                    <option>Bachelor en Marketing et Innovation</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="Master">Master:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Master Professionnel en Science de Gestion</option>
+                                    <option>Master en Science de Gestion (MBA)</option>
+                                    <option>Option Communication et Marketing</option>
+                                    <option>Option Finance et Banque</option>
+                                    <option>Option Entreprenariat et Créativité</option>
+                                    <option>Option Leadership et Management</option>
+                                    <option>Option HRM</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Ecole de Diplomatie-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Ecole de Diplomatie:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="bachelor">Bachelor:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-award-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Bachelor en Relations Internationales et Diplomatie</option>
+                                    <option>Bachelor en Science Politique</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="Master">Master:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Master en Relations Internationales et Diplomatie</option>
+                                    <option>Master en Science Science Politique</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Ecole de droit-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Ecole de Droit:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="bachelor">Bachelor:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-award-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Bachelor en Droit</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="Master">Master:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Master en Droit des Affaires</option>
+                                    <option>Master en Droit International Humanitaire</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Formation continue-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Formation continue:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="bachelor">Bachelor:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-award-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Développement des compétences stratégiques</option>
+                                    <option>Compétences de Leadership</option>
+                                    <option>Management Global</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="Master">Master:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Master en Droit des Affaires</option>
+                                    <option>Gestion de Projet</option>
+                                    <option>Diplomatie et Finance Internationale</option>
+                                    <option>Marketing et Négociation Commerciale</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Pour la session de-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Pour la session de:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="session">Session:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Octobre</option>
+                                    <option>Mars</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="section">Section:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Français</option>
+                                    <option>Anglais</option>
+                                    <option>Bilingue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!-------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------->
+                <!-------------------------------------------------------------------------------->
+                <!--Connaissances linguistiques-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Connaissance linguistiques:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="francais">Français:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Très bonne</option>
+                                    <option>Bonnes</option>
+                                    <option>Notions</option>
+                                    <option>Aucune</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="anglais">Anglais:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">Très bonne</option>
+                                    <option>Bonnes</option>
+                                    <option>Notions</option>
+                                    <option>Aucune</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="autres">Autres:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                            </div>
+                            <textarea typeof="text" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Hobbies-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Hobbies:</div>
+                    <div class="col-12 pt-3">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <textarea typeof="text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Autres compétences et expériences (expérience de recherche, etc.)-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Autres compétences et expériences (expérience de recherche, etc.):</div>
+                    <div class="col-12 pt-3">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <textarea typeof="text" class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Comment avez-vous connu UMEF-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Comment avez-vous connu UMEF?</div>
+                    <div class="col-12">
+                        <div class="form-group pt-3">
+                            <div class="input-group class=" form-control"">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-briefcase-fill"></i></span>
+                                </div>
+                                <select class="form-control">
+                                    <option selected="selected">TV</option>
+                                    <option>Journaux</option>
+                                    <option>Radio</option>
+                                    <option>Site Web</option>
+                                    <option>Amis</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!--Informations personnelles-->
+                <div class="row pt-3">
+                    <div class="bg-danger text-white">Informations personnelles:</div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="nom">Nom:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="nom">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tel">Téléphone:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="tel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="prenom">Prénom:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="prenom">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="adresse">Adresse:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-hearts"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="adresse">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-6">
+                        <label for="vos-etude">Qui financera vos études?:</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="bi bi-person"></i></span>
+                            </div>
+                            <select class="form-control">
+                                <option selected="selected">Parents</option>
+                                <option>Vous-même</option>
+                                <option>Employeur</option>
+                                <option>Site Web</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+                <!------------------------------------------------------------------------------------->
+                <!------------------------------------------------------------------------------------->
+                <!------------------------------------------------------------------------------------->
+                <!------------------------------------------------------------------------------------->
+                <!------------------------------------------------------------------------------------->
+
+
+                <h5 class="text-center text-danger pt-5">Les candidats doivent fournir les documents suivants:</h5>
+                <!--Condition d'admission pour le Bachelor-->
+                <div class="row">
+                    <div class="text-white bg-danger">Condition d'admission pour le Bachelor</div>
+                    <div>
+                        <ul>
+                            <li>Copie du diplôme officiel de fin d'érudes decondaires: Baccalauréat ou diplôme équivalent</li>
+                            <li>Les copies de tous les bulletins de notes</li>
+                            <li>Un formulaire de demande, dûment complété et signé</li>
+                            <li>Bonnes connaissances du français ou de l'anglais (écrit et parlé)</li>
+                            <li>Une copie de carte d'identité nationale ou du passport</li>
+                            <li>Trois photos d'identité récentes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!--Condition d'admission pour le Master-->
+                <div class="row">
+                    <div class="text-white bg-danger">Condition d'admission pour le Master</div>
+                    <div>
+                        <ul>
+                            <li>Une Licence (ou équivalent), d'une Université reconnue</li>
+                            <li>Les copies de tous les bulletins de notes</li>
+                            <li>Un formulaire de demande, dûment complété et signé</li>
+                            <li>Bonnes connaissances du français ou de l'anglais (écrit et parlé)</li>
+                            <li>Un Curriculum vitae dûment signé</li>
+                            <li>Une copie de carte d'identité nationale ou du passport</li>
+                            <li>Trois photos d'identité récentes</li>
+                        </ul>
+                    </div>
+                </div>
+                <!---->
+
+                <p>Si une des conditions n'est pas remplie le dossier n'est pas examiné.</p>
+                <p>
+                    Je certifie que les informations et les documents fournis (diplôme(s), bulletin(s) de notes, etc.) sont vrais et exacts.
+                    J'ai pris connaissance des conditions d'admission, je les approuve et m'engage à les respecter.
+                </p>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="lieu">Date/Lieu:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="lieu">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="signature">Signature:</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                                <input type="text" class="form-control" id="signature">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row pt-3">
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header bg-danger text-white">
+                                <span>Réservé à l'administration d'UMEF</span>
+                            </div>
+                            <div class=" row card-body">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="dossier">Numéro de dossier:</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-book-fill"></i></span>
+                                            </div>
+                                            <input type="text" class="form-control" id="dossier">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="resulat">Résultat d'admission:</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-award-fill"></i></span>
+                                            </div>
+                                            <select class="form-control">
+                                                <option selected="selected">Admis</option>
+                                                <option>Liste d'attente</option>
+                                                <option>Non admis</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="concours">Date de concours:</label>
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                                            </div>
+                                            <input type="date" class="form-control" id="concours">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="card">
+                            <div class="card-header bg-danger text-white">
+                                <span>Remarques</span>
+                            </div>
+                            <div class="card-body row">
+                                <hr />
+                                <hr />
+                                <hr />
+                                <hr />
+                                <hr />
+                                <hr />
+                                <hr />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </form>
+</div>

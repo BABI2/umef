@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Site_De_Swiss_UMEF.props" />
+</Project>

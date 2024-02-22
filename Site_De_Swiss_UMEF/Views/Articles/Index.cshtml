@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Site_De_Swiss_UMEF.Models.Article>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.image_article)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.icons)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.id_categorie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.create_at)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.update_at)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.image_article)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.icons)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.id_categorie)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.create_at)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.update_at)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id_article">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id_article">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id_article">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

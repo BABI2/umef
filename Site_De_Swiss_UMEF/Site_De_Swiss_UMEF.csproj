@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>wwwroot\Images\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Views\Account\ConfirmEmail.cshtml" />
+    <None Include="Views\Account\Error.cshtml" />
+    <None Include="Views\Account\ForgotPassword.cshtml" />
+    <None Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
+    <None Include="Views\Account\Lockout.cshtml" />
+    <None Include="Views\Account\Login.cshtml" />
+    <None Include="Views\Account\Register.cshtml" />
+    <None Include="Views\Account\ResetPassword.cshtml" />
+    <None Include="Views\Account\ResetPasswordConfirmation.cshtml" />
+    <None Include="Views\Administrator\Create.cshtml" />
+    <None Include="Views\Administrator\CreateCategory.cshtml" />
+    <None Include="Views\Administrator\Edit.cshtml" />
+    <None Include="Views\Administrator\Index.cshtml" />
+    <None Include="Views\Administrator\ListOfArticle.cshtml" />
+    <None Include="Views\Administrator\ListOfCategory.cshtml" />
+    <None Include="Views\Administrator\SendNewsletter.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Menu\footer.cshtml" />
+    <None Include="Views\Menu\menu.cshtml" />
+    <None Include="Views\Menu\menuAdmin.cshtml" />
+    <None Include="Views\Menu\plusinfo.cshtml" />
+    <None Include="Views\Pages\Bachelor.cshtml" />
+    <None Include="Views\Pages\Contact.cshtml" />
+    <None Include="Views\Pages\Ecole_Doctorale.cshtml" />
+    <None Include="Views\Pages\Ecole_Ingenieur.cshtml" />
+    <None Include="Views\Pages\Entreprenariat_UMEF.cshtml" />
+    <None Include="Views\Pages\Etudiant_Formation.cshtml" />
+    <None Include="Views\Pages\Fonctionnaires.cshtml" />
+    <None Include="Views\Pages\Formations_Continues.cshtml" />
+    <None Include="Views\Pages\Formation_Bachelor.cshtml" />
+    <None Include="Views\Pages\Formation_Master.cshtml" />
+    <None Include="Views\Pages\Master.cshtml" />
+    <None Include="Views\Pages\menu.cshtml" />
+    <None Include="Views\Pages\Nouveau_Campus.cshtml" />
+    <None Include="Views\Pages\Recherche.cshtml" />
+    <None Include="Views\Pages\Renforcement.cshtml" />
+    <None Include="Views\Pages\Temoignage.cshtml" />
+    <None Include="Views\Shared\Components\ArticleSlider\Default.cshtml" />
+    <None Include="Views\Shared\Components\Article\Default.cshtml" />
+    <None Include="Views\Shared\Components\Temoignage\Default.cshtml" />
+    <None Include="Views\Shared\Error.cshtml" />
+    <None Include="Views\Shared\_Layout.cshtml" />
+    <None Include="Views\Shared\_LayoutAdministrator.cshtml" />
+    <None Include="Views\Shared\_LoginPartialCustom.cshtml" />
+    <None Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mailjet.Api" Version="3.0.0" />
+    <PackageReference Include="MailKit" Version="4.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.22" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
+    <PackageReference Include="TinyMCE" Version="6.8.2" />
+  </ItemGroup>
+
+</Project>
